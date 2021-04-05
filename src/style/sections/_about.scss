@@ -28,6 +28,8 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+      -webkit-filter: grayscale(42%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(42%);
 
       @include respond(tab-port) {
         padding-bottom: 6.4rem;
