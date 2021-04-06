@@ -69,30 +69,44 @@ export const technologiesData = [
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'stark.jpg',
+    title: 'Stark',
+    info:
+      'Stark is a home security system with virtual security guards that monitor your cameras. Our goal is to enhance the Ring customer experience and make neighbourhoods safer by offering augmented security, increased peace of mind.',
+    info2: 'Here my work is focus on the frontend using React, Javascript, Less and Mobx',
+    url: 'https://latam-es.ring.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'Sesame.jpg',
+    title: 'Sesame integration',
+    info:
+      "Sesame is a project where the Amazon warehouse team integrated the Stark tool to monitor the different trucks which come into Amazon's warehouse.",
+    info2:
+      "My job was to help with the integration, customize the current UI to open and close the warehouses' gates using Stark.",
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'form.jpg',
+    title: 'Angular Dynamic Form',
+    info:
+      'Create a form base on the information provided by an API, baked using Angular 5 and Javascript.',
+    info2: '',
+    url: 'https://github.com/FreakDroid/DynamicForm',
+    repo: 'https://github.com/FreakDroid/DynamicForm', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'map.jpg',
+    title: 'React Marzipano',
+    info:
+      'Marzipano is a library to create a map in 360. This project is a wrapper of the original lib to make it easier to use it with React.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/BLACKBOX-ArchViz/react-marzipano', // if no repo, the button will not show up
   },
 ];
 
@@ -109,22 +123,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/DevWilfredo',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/wilfredo-roberto-perez-lopez-3b92185b/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/FreakDroid',
     },
   ],
 };

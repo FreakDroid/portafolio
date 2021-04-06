@@ -24,7 +24,7 @@ const Technologies = () => {
     <section id="technologies">
       <Container>
         <div className="technologies-wrapper">
-          <Title title="Technologies" />
+          <Title title="Skills" />
           <Row>
             {technologies.map((technology) => {
               const { icon, description, name, id } = technology;
