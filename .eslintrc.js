@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['airbnb', 'prettier'],
   plugins: ['prettier'],
+  extends: ['airbnb', 'prettier'],
   env: {
     browser: true,
     es6: true,
