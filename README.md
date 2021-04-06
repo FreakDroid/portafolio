@@ -2,7 +2,7 @@
 
 ️
 
-This repo is my Simplefolio. I use as a base [Simplefolio](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)
+This repo is my portfolio. I use as a base theme called [Simplefolio](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)
 
 ## Deployment 📦
 
@@ -23,4 +23,4 @@ This repo is my Simplefolio. I use as a base [Simplefolio](https://img.shields.i
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b7e7a999-fc4c-4a4a-bc47-145c5d8fb0e5/deploy-status)](https://app.netlify.com/sites/confident-archimedes-c8c9d9/deploys)
