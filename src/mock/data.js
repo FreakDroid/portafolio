@@ -5,6 +5,7 @@ import reactBrand from '../images/react-brands.svg';
 import cpp from '../images/cpp_logo.svg';
 import less from '../images/less-brands.svg';
 import nodejs from '../images/node-brands.svg';
+import CV from '../CV/CV.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -27,9 +28,8 @@ export const aboutData = {
   paragraphOne:
     'I am a Software Engineer with more than nine years of experience, Looking for a new and incredible challenge. ' +
     'I love working with React, Javascript, Nodejs, AWS.',
-  paragraphThree:
-    'In my free time I experiment with Python and C++ creating some stuff or learning algorithms.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: 'In my free time I experiment with Python and C++ creating some stuff or learning algorithms.',
+  resume: CV, // if no resume, the button will not show up
 };
 
 export const technologiesData = [
@@ -92,8 +92,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'form.jpg',
     title: 'Angular Dynamic Form',
-    info:
-      'Create a form base on the information provided by an API, baked using Angular 5 and Javascript.',
+    info: 'Create a form base on the information provided by an API, baked using Angular 5 and Javascript.',
     info2: '',
     url: 'https://github.com/FreakDroid/DynamicForm',
     repo: 'https://github.com/FreakDroid/DynamicForm', // if no repo, the button will not show up
